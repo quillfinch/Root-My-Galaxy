@@ -13,6 +13,13 @@ from device offsets, native exploit payloads, and KernelSU build artifacts.
 The device feed and native payloads are maintained in
 [Root-My-Galaxy-Payloads](https://github.com/BuSung-dev/Root-My-Galaxy-Payloads).
 
+> **Fork note:** this build resolves its payload feed and artifacts from this
+> repository's fork of `Root-My-Galaxy-Payloads` instead of upstream, and adds
+> support for the **Galaxy Tab S10 FE (Wi-Fi, SM-X520)** on firmware
+> `X520XXSACZH6` / kernel `6.6.102` (profile `essi-X520XXSACZH6`,
+> device-tested via the full app chain: GhostLock exploit → KernelSU
+> late-load under SELinux enforcing).
+
 ## Application
 
 
